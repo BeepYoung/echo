@@ -1,11 +1,11 @@
-package com.example.springkt
+package com.example.echo
 
 import org.springframework.boot.autoconfigure.SpringBootApplication
 import org.springframework.boot.runApplication
 
 @SpringBootApplication
-class SpringktApplication
+class EchoApplication
 
 fun main(args: Array<String>) {
-	runApplication<SpringktApplication>(*args)
+	runApplication<EchoApplication>(*args)
 }
